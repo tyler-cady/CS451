@@ -1,0 +1,205 @@
+Visited Node:
+Word Chain: ABC
+Path: 0 
+Depth: 1
+
+Visited Node:
+Word Chain: ABC -> CDE
+Path: 0 1 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CFG
+Path: 0 2 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CDE -> EHE
+Path: 0 1 3 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CDE -> EIJ
+Path: 0 1 4 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GHK
+Path: 0 2 5 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC
+Path: 0 2 6 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CDE -> EHE -> EIJ
+Path: 0 1 3 4 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE
+Path: 0 2 6 1 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EHE
+Path: 0 2 6 1 3 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EIJ
+Path: 0 2 6 1 4 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EHE -> EIJ
+Path: 0 2 6 1 3 4 
+Depth: 6
+
+Visited Node:
+Word Chain: ABC
+Path: 0 
+Depth: 1
+
+Visited Node:
+Word Chain: ABC -> CFG
+Path: 0 2 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC
+Path: 0 2 6 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE
+Path: 0 2 6 1 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EIJ
+Path: 0 2 6 1 4 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EHE
+Path: 0 2 6 1 3 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GLC -> CDE -> EHE -> EIJ
+Path: 0 2 6 1 3 4 
+Depth: 6
+
+Visited Node:
+Word Chain: ABC -> CFG -> GHK
+Path: 0 2 5 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CDE
+Path: 0 1 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CDE -> EIJ
+Path: 0 1 4 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CDE -> EHE
+Path: 0 1 3 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CDE -> EHE -> EIJ
+Path: 0 1 3 4 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC
+Path: 0 
+Depth: 1
+
+Visited Node:
+Word Chain: ABC -> CDE
+Path: 0 1 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CFG
+Path: 0 2 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CDE -> EHI
+Path: 0 1 3 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GJC
+Path: 0 2 4 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG
+Path: 0 2 5 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GJC -> CDE
+Path: 0 2 4 1 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC
+Path: 0 2 5 4 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GJC -> CDE -> EHI
+Path: 0 2 4 1 3 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC -> CDE
+Path: 0 2 5 4 1 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC -> CDE -> EHI
+Path: 0 2 5 4 1 3 
+Depth: 6
+
+Visited Node:
+Word Chain: ABC
+Path: 0 
+Depth: 1
+
+Visited Node:
+Word Chain: ABC -> CFG
+Path: 0 2 
+Depth: 2
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG
+Path: 0 2 5 
+Depth: 3
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC
+Path: 0 2 5 4 
+Depth: 4
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC -> CDE
+Path: 0 2 5 4 1 
+Depth: 5
+
+Visited Node:
+Word Chain: ABC -> CFG -> GKG -> GJC -> CDE -> EHI
+Path: 0 2 5 4 1 3 
+Depth: 6
+

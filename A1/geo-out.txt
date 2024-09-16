@@ -1,0 +1,13 @@
+Test Case 1 (BFS):
+No solution found.
+
+Test Case 1 (DFS):
+No solution found.
+
+Test Case 2 (BFS):
+Solution found:
+ABC CFG GKG GJC CDE EHI 
+
+Test Case 2 (DFS):
+Solution found:
+ABC CFG GKG GJC CDE EHI 
