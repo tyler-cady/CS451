@@ -1,0 +1,29 @@
+% otter in file 
+% Problem 1 
+% Prove: 
+% Last night, there was a party.  
+% Ann and Bill and Carl and Dave were invited. 
+% Whenever, there is a party, Carl always attends when Ann and Bill attend.  
+% But Carl will not attend if Dave attends.  We know that Ann attended the party.  
+% Prove that either Bill or Dave did not attend the party.
+
+% Declare predicates
+party.
+invited(ann).
+invited(bill).
+invited(carl).
+invited(dave).
+attends(ann).
+attends(bill) :- party, attends(ann), attends(bill).
+attends(carl) :- party, attends(ann), attends(bill).
+-attends(carl) :- party, attends(dave).
+
+% Prove that either Bill or Dave did not attend the party
+- attends(bill) | - attends(dave).
+
+% This script can be run using Otter by executing the following command in the terminal:
+% files:(p1.in p1.out)
+% otter run /Users/tylercady/Library/CloudStorage/GoogleDrive-cadytm@clarkson.edu/My\ Drive/S7/CS451/CS451/A4/p1.in
+
+% Output to p1.out:
+% The output of the proof will be written to the file p1.out.

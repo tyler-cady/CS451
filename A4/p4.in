@@ -1,0 +1,25 @@
+% There was another party.  
+% This time only Ann and Bill and Carl were invited.  
+% Either Ann or Bill attended, but not both.  
+% Either Bill or Carl attended, but not both.  
+% Prove if either Ann or Carl came to the party, then both Ann and Carl came to the party.
+
+set(auto).
+formula_list(usable).
+% Ann, Bill, and Carl are the only ones invited
+invited(ann).
+invited(bill).
+invited(carl).
+
+% Either Ann or Bill attended, but not both
+attended(ann) | attended(bill).
+-attended(ann) | -attended(bill).
+
+% Either Bill or Carl attended, but not both
+attended(bill) | attended(carl).
+-attended(bill) | -attended(carl).
+
+% Prove if either Ann or Carl came to the party, then both Ann and Carl came to the party
+-attended(ann) | -attended(carl) | attended(ann) & attended(carl).
+
+end_of_list.

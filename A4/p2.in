@@ -1,0 +1,28 @@
+% There was another party.  
+% Ann and Bill and Carl and Dave were invited.  
+% Not all of them attended.  
+% Whenever there is a party, Bill attends when Ann attends.  
+% Also, Carl attends when Bill attends.
+% Also, Dave attends when Carl attends.  
+% Also, Ann attends when Dave attends.
+% Prove that nobody came to the party.
+
+set(auto).
+formula_list(usable).
+
+% Define the attendance predicates
+attends(ann).
+attends(bill).
+attends(carl).
+attends(dave).
+
+% Define the rules
+- attends(bill) | attends(ann).
+- attends(carl) | attends(bill).
+- attends(dave) | attends(carl).
+- attends(ann) | attends(dave).
+
+% Define the negation of the conclusion
+attends(ann) | attends(bill) | attends(carl) | attends(dave).
+
+end_of_list.

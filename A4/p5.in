@@ -1,0 +1,24 @@
+% Suppose there are only five people in the world. 
+% Three of the people are male and two are female. 
+% Each female is married to at most one male. 
+% Prove that not all of the males are married. 
+% In this problem males can only marry females.
+
+% Define the people
+male(m1).
+male(m2).
+male(m3).
+female(f1).
+female(f2).
+
+% Define the marriage relation
+married(X, Y) :- male(X), female(Y).
+
+% Each female is married to at most one male
+- married(X, Y) | - married(Z, Y) | X = Z.
+
+% There are only two females
+- female(f1) | - female(f2).
+
+% Prove that not all males are married
+- married(m1, f1) | - married(m1, f2) | - married(m2, f1) | - married(m2, f2) | - married(m3, f1) | - married(m3, f2).

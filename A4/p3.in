@@ -1,0 +1,25 @@
+%There was another party.  
+%Ann and Bill and Carl and Dave were invited.  
+%There were at least two people at the party.
+%If Ann attended then everybody else attended.  
+%And Bill always attends when Carl attends.
+%Prove that Bill came to the party.
+
+set(auto).
+
+formula_list(usable).
+
+% Facts
+attends(ann).
+attends(bill).
+attends(carl).
+attends(dave).
+
+% Rules
+at_least_two_people :- attends(X), attends(Y), X \= Y.
+if_ann_attends_then_everybody_attends :- attends(ann) -> attends(bill), attends(carl), attends(dave).
+bill_attends_if_carl_attends :- attends(carl) -> attends(bill).
+
+% Goal
+prove_bill_attended :- attends(bill).
+

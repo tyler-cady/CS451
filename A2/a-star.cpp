@@ -25,9 +25,9 @@ vector<Node*> expand(Node* node) {
         successors.push_back(new Node(new_state, new_path, node->depth + 1, node));
     }
     return successors;
-}
+} 
 
-bool is_goal(Node* node) {
+bool is_goal(Node* node) {  
     return node->state == "goal";
 }
 
